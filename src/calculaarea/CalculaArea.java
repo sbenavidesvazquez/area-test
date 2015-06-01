@@ -23,11 +23,11 @@ public class CalculaArea {
     
     v.recogerDatos(m);
     
-    calArea(m);
+    //calArea(m);
     v.imprimir(m);
     }
     
-    public static void calArea(Metodo mo){
+    public static float calArea(Metodo mo){
     
     switch (mo.getFigura()){
         case "cuadrado":
@@ -43,6 +43,7 @@ public class CalculaArea {
             mo.setArea((float) 3.14159265*mo.getRadio());
             break;
     }
+    return mo.getArea();
 }
     
 }
