@@ -42,7 +42,7 @@ public class AreaParamTest {
          {new Metodo("cuadrado",5,6,0),25},
          {new Metodo ("rectangulo",5,6,0), 30},
          {new Metodo ("triangulo",5,6,0),15 },
-         {new Metodo ("circulo",0,0,2),6.28 }
+         {new Metodo ("circulo",0,0,2),6.28F }
       });
    }
    
@@ -50,6 +50,6 @@ public class AreaParamTest {
    public void testPrimeNumberChecker() {
       System.out.println("Parameterized Number is : " + result);
       assertEquals(result, 
-      calculo.calArea(mo),2.0);
+      calculo.calArea(mo),1.0);
    }
 }

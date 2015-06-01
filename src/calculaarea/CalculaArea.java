@@ -23,7 +23,7 @@ public class CalculaArea {
     
     v.recogerDatos(m);
     
-    //calArea(m);
+    calArea(m);
     v.imprimir(m);
     }
     
